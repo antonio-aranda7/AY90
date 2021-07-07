@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'AY90'`, () => {
+  it(`should have as title 'formGroupAnidado'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('AY90');
+    expect(app.title).toEqual('formGroupAnidado');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('AY90 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('formGroupAnidado app is running!');
   });
 });
